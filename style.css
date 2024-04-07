@@ -17,6 +17,17 @@ header {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 20px; /* Adjust as needed */
+}
+
+.logo h1 {
+    font-size: 1.5rem; /* Adjust as needed */
 }
 
 nav ul {
@@ -52,6 +63,14 @@ footer {
 @media screen and (max-width: 768px) {
     header {
         padding: 10px 0;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .logo h1 {
+        font-size: 1.2rem;
     }
 
     nav ul li {
