@@ -32,10 +32,10 @@ header {
 
 nav ul {
     list-style-type: none;
+    display: flex; /* Display items horizontally */
 }
 
 nav ul li {
-    display: inline;
     margin-right: 20px;
 }
 
@@ -73,8 +73,11 @@ footer {
         font-size: 1.2rem;
     }
 
+    nav ul {
+        flex-direction: column; /* Display items vertically */
+    }
+
     nav ul li {
-        display: block;
         margin-bottom: 10px;
     }
 
